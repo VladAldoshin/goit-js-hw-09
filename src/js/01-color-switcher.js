@@ -13,7 +13,7 @@ function getRandomHexColor() {
     stopButton.disabled = false;
   
     timerId = setInterval(() => {
-        bodyRandomColor = getRandomHexColor();
+      bodyRandomColor.style.background = getRandomHexColor();
     }, 1000);
   });
 
